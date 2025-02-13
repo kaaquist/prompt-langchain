@@ -1,1 +1,34 @@
-venv
+#local sandbox
+sandbox/
+sandbox.ipynb
+
+#jupyter notebook cache
+.ipynb_checkpoints
+.ipynb_checkpoints/
+features/__pycache__/
+features/.ipynb_checkpoints
+features/.ipynb_checkpoints/
+config/.ipynb_checkpoints
+config/.ipynb_checkpoints/
+
+# local script
+scripts/
+date_batch.ipynb
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+
+# Intellij
+.idea/
+*.iml
+visiontype-rbf-full.metadata
+batch.log
+
+# vir-env
+venv/
+logs/
+
+# Apple
+*.DS_Store
+.AppleDouble
+.LSOverride
